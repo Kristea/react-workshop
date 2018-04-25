@@ -1,0 +1,109 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Loo Renders a heading and a Map 1`] = `
+<Loo
+  loo={
+    Object {
+      "_id": "5a031106a762310011e94c4f",
+      "distance": 245,
+      "geometry": Object {
+        "coordinates": Array [
+          23.589,
+          46.77,
+        ],
+        "type": "Point",
+      },
+      "properties": Object {
+        "name": "Piata Unitii",
+      },
+      "type": "Feature",
+    }
+  }
+>
+  <div>
+    <h3>
+      Piata Unitii
+    </h3>
+    <LooMap
+      center={
+        Array [
+          46.77,
+          23.589,
+        ]
+      }
+      fixed={true}
+      geojson={
+        Object {
+          "_id": "5a031106a762310011e94c4f",
+          "distance": 245,
+          "geometry": Object {
+            "coordinates": Array [
+              23.589,
+              46.77,
+            ],
+            "type": "Point",
+          },
+          "properties": Object {
+            "name": "Piata Unitii",
+          },
+          "type": "Feature",
+        }
+      }
+      height="200px"
+      zoom={15}
+    >
+      <Map
+        center={
+          Array [
+            46.77,
+            23.589,
+          ]
+        }
+        dragging={false}
+        keyboard={false}
+        scrollWheelZoom={false}
+        style={
+          Object {
+            "height": "200px",
+          }
+        }
+        touchZoom={false}
+        zoom={15}
+        zoomControl={false}
+      >
+        <div
+          style={
+            Object {
+              "height": "200px",
+            }
+          }
+        >
+          <TileLayer
+            attribution="© OpenStreetMap"
+            url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+          />
+          <GeoJSON
+            data={
+              Object {
+                "_id": "5a031106a762310011e94c4f",
+                "distance": 245,
+                "geometry": Object {
+                  "coordinates": Array [
+                    23.589,
+                    46.77,
+                  ],
+                  "type": "Point",
+                },
+                "properties": Object {
+                  "name": "Piata Unitii",
+                },
+                "type": "Feature",
+              }
+            }
+          />
+        </div>
+      </Map>
+    </LooMap>
+  </div>
+</Loo>
+`;
